@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #a7e4e9;
+}
+
+.pagina{
+  display: flex;
+  position: relative;
+}
+
+
+.pagina .menu{
+  width: 200px;
+  height: 100%;
+  background: #150b52;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.pagina .menu h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pagina .menu ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.pagina .menu ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.pagina .menu ul li a .fas{
+  width: 25px;
+}
+
+.pagina .menu ul li:hover{
+  background-color: #fff;
+}
+    
+.pagina .menu ul li:hover a{
+  color: #150b52;
+}
+ 
+
+
+
+.pagina .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.pagina .main_content .header{
+  padding: 20px;
+  background: #150b52;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.pagina .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.pagina .main_content .info div{
+  margin-bottom: 20px;
+}
